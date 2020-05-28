@@ -4,7 +4,6 @@ description:        A Blog/Portfolio website.
 author:             Flow Amonoy
 baseurl:            ""
 url:                "https://amonoyflow.github.io"
-icon:               "../../../img/ic_florante.png"
 
 google_analytics:   UA-165690186-1
 
