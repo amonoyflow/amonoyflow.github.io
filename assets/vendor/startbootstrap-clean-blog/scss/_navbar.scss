@@ -138,17 +138,22 @@
   max-height: 100vh;
   opacity: 0;
   transition: opacity 0.4s ease;
-  display: flex;
+  display: block;
   flex: none;
   align-items: center;
   justify-content: center;
+}
+
+.menu-wrap .menu > div > div > ul {
+  list-style-type: none;
+  padding: 1rem;
 }
 
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
