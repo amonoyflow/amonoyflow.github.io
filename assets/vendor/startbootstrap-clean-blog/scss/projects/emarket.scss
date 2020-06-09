@@ -1,0 +1,109 @@
+.emarket {
+  width: 100%;
+  background-color: #ef4136;
+  .emarket-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+  }
+
+  &-image {
+    margin: 0 auto;
+    &__main {
+      position: relative;
+      width: 100%;
+    }
+  }
+
+  &-text {
+    &__main {
+      font-family: inherit;
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: inherit;
+      text-transform: uppercase;
+      color: $white;
+    }
+
+    &__subs {
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 400;
+      color: $white;
+      margin: 1rem 0 0 0;
+    }
+  }
+}
+
+.emarket-info {
+  width: 100%;
+
+  .emarket-info-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 100px auto;
+  }
+
+  &__left {
+    margin: 0 auto;
+  }
+
+  &__right {
+    margin: 0 auto;
+  }
+
+  &__main {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: inherit;
+    text-transform: uppercase;
+    color: $black;
+    text-align: center;
+  }
+
+  &__subs {
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: $black;
+    margin: 1rem 0 0 0;
+    text-align: center;
+  }
+}
+
+.emarket-gallery {
+  width: 100%;
+  
+  &__main {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: inherit;
+    text-transform: uppercase;
+    color: $black;
+    text-align: center;
+  }
+
+  .emarket-gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  &__main {
+    width: 100%;
+  }
+}

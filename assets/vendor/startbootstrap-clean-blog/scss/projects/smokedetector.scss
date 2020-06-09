@@ -1,7 +1,7 @@
-.weather {
+.detector {
     width: 100%;
-    background-color: #ffa110;
-    .weather-container {
+    background-color: #1d3e59;
+    .detector-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 1rem;
@@ -40,10 +40,10 @@
     }
   }
   
-  .weather-info {
+  .detector-info {
     width: 100%;
   
-    .weather-info-container {
+    .detector-info-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1rem;
@@ -81,7 +81,7 @@
     }
   }
   
-  .weather-gallery {
+  .detector-gallery {
     width: 100%;
     
     &__main {
@@ -94,7 +94,7 @@
       text-align: center;
     }
   
-    .weather-gallery-container {
+    .detector-gallery-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       justify-content: space-between;
@@ -107,4 +107,3 @@
       width: 100%;
     }
   }
-  

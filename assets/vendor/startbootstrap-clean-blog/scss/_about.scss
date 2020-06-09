@@ -12,8 +12,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation-name: aboutFadeIn;
-  animation-duration: 2s;
+  animation: 2s aboutFadeIn;
 }
 
 .heading-primary {
@@ -84,5 +83,11 @@
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
   }
 }

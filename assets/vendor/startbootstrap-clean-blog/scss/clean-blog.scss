@@ -2,14 +2,15 @@
 @import "mixins.scss";
 @import "global.scss";
 @import "navbar.scss";
-@import "navbar-post";
 @import "blog.scss";
 @import "post.scss";
 @import "contact.scss";
 @import "footer.scss";
 @import "about.scss";
-@import "tiles.scss";
+@import "projects.scss";
 @import "bootstrap-overrides.scss";
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-@import "projects/weather.scss"
+@import "projects/emarket.scss";
+@import "projects/smokedetector.scss";
+@import "projects/weather.scss";

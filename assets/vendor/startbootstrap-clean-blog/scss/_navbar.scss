@@ -11,6 +11,8 @@
   top: 0;
   right: 0;
   z-index: 1;
+  animation-name: fadeInRight;
+  animation-duration: 2s;
 }
 
 .menu-wrap .toggler {
@@ -164,3 +166,14 @@
   text-align: center;
 }
 
+@keyframes fadeInRight {
+  0% {
+    position: absolute;
+    opacity: 0;
+  }
+
+  100% {
+    position: absolute;
+    opacity: 1;
+  }
+}
