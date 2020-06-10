@@ -38,6 +38,58 @@
         margin: 1rem 0 0 0;
       }
     }
+
+    @media screen and (max-width: 768px) {
+      .weather-container {
+        grid-template-columns: 1fr;
+      }
+    
+      &-image {
+        &__main {
+          width: 100%;
+          height: auto;
+        }
+      }
+    
+      &-text {
+        &__main {
+          font-family: inherit;
+          font-size: 1.3rem;
+          font-weight: 600;
+        }
+    
+        &__subs {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  
+    @media screen and (max-width: 992px) {
+      .weather-container {
+        grid-template-columns: 1fr;
+      }
+    
+      &-image {
+        &__main {
+          width: 100%;
+          height: 50vh;
+        }
+      }
+    
+      &-text {
+        &__main {
+          font-family: inherit;
+          font-size: 1.3rem;
+          font-weight: 600;
+          text-align: center;
+        }
+    
+        &__subs {
+          font-size: 0.8rem;
+          text-align: center;
+        }
+      }
+    }
   }
   
   .weather-info {
@@ -79,6 +131,21 @@
       margin: 1rem 0 0 0;
       text-align: center;
     }
+
+    @media screen and (max-width: 992px) {
+      .weather-info-container {
+        margin: 50px auto;
+      }
+  
+      &__main {
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+    
+      &__subs {
+        font-size: 0.7rem;
+      }
+    }
   }
   
   .weather-gallery {
@@ -105,6 +172,22 @@
   
     &__main {
       width: 100%;
+    }
+
+    @media screen and (max-width: 992px) {
+      &__text {
+        font-size: 0.8rem;
+      }
+    
+      .weather-gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  
+    @media screen and (max-width: 600px) {
+      .weather-gallery-container {
+        grid-template-columns: 1fr;
+      }
     }
   }
   
