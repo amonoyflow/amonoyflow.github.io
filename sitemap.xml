@@ -2,19 +2,19 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:6060/about/</loc>
-<lastmod>2022-07-23T22:37:43+08:00</lastmod>
+<lastmod>2022-07-25T00:24:53+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:6060/blog/</loc>
-<lastmod>2022-07-23T22:37:43+08:00</lastmod>
+<lastmod>2022-07-25T00:24:53+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:6060/</loc>
-<lastmod>2022-07-23T22:37:43+08:00</lastmod>
+<lastmod>2022-07-25T00:24:53+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:6060/projects/</loc>
-<lastmod>2022-07-23T22:37:43+08:00</lastmod>
+<lastmod>2022-07-25T00:24:53+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:6060/blog/it-is-never-too-late-to-be-what-you-might-have-been</loc>
@@ -32,5 +32,9 @@
 </url>
 <url>
 <loc>http://localhost:6060/tag/notes.html</loc>
+</url>
+<url>
+<loc>http://localhost:6060/Florante_Amonoy_CV.pdf</loc>
+<lastmod>2022-07-24T23:46:54+08:00</lastmod>
 </url>
 </urlset>
